@@ -50,48 +50,75 @@
     <!-- Titulo -->
 
     <div class="flex-tittle">
-        <h1>Bienvenidos a el sitio web de Huellitas</h1>
+        <h2>Completa los casilleros para empezar con la adopción:</h2>
     </div>
 
-<!-- MI MAIN -->
-<main class="container-fluid">
-    <div class="row mi-index-main">
-        <div id="carouselExampleAutoplaying" class="carousel slide col-4" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../views/peluqueria11.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../views/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../views/Que-hace-un-auxiliar-de-veterinaria.jpg" class="d-block w-100" alt="...">
-              </div>
+<!-- Main adopcion -->
+
+
+    <main>
+        <div class="container-fluid">
+            <div class="row desplegables">
+                <select class="col-3 mi-formulario" aria-label="Default select example">
+                    <option selected>Selecciona que mascota queres adoptar...</option>
+                    <option value="1">Perro</option>
+                    <option value="2">Gato</option>
+                    <option value="3">Peces</option>
+                </select>
+                <select class="col-3 mi-formulario" aria-label="Default select example">
+                    <option selected>Raza de la mascota...</option>
+                    <option value="1">Caniche</option>
+                    <option value="2">Siames</option>
+                    <option value="3">Bulldog</option>
+                </select>
+                <select class="col-3 mi-formulario" aria-label="Default select example">
+                    <option selected>Edad de la mascota...</option>
+                    <option value="1"> Cachorro, menor de 6 meses</option>
+                    <option value="2"> Joven, entre 6 meses y 2 años</option>
+                    <option value="3"> Adulto, mayor de 2 años</option>
+                </select>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
         </div>
-        <div class="col-4">
-            <h3>Nuestra historia:</h3>
-            <h5>Huellitas empezo en una casa familiar, donde la mamá de 2 niños, y con ayuda de sus pequeños, rescataba animales de la calle para cuidarlos y encontrarles un hogar, con el paso del tiempo y mucho esfuerzo, pudieron abrir su propio refugio y peluqueria animal con su propio sitio web</h5>
-        </div>
-
         <div>
-             <h4> Estos son algunos de nuestros trabajos:</h4>
-             <img class="img" src="../views/caniche-corte-pelo-min.jpg" alt="">
-             <img src="" alt="">
-             <img src="" alt="">
+            <form class="main-adopcion-flex">
+                <input type="email" placeholder="Deje su email para contactarlo..." class="input-adopcion">
+                <textarea name="" placeholder="Escriba algo que quiera comunicarnos..."></textarea>
+                <input type="submit" class="btn btn-primary mi-boton" value="Enviar datos"></input>
+            </form>
         </div>
-    </div>  
-
     
-</main>
+
+        <!-- carrusel adopcion -->
+
+        <div class="container-fluid carrusel-adopcion">
+            <div class="row mi-index-main">
+                <div id="carouselExampleAutoplaying" class="carousel slide col-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../views/peluqueria11.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../views/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../views/Que-hace-un-auxiliar-de-veterinaria.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+
 
 
 

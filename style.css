@@ -19,8 +19,8 @@ body {
 }
 
 #navbarNav ul li:hover {
-    background-color:rgb(255, 207, 207);
-    transition: 1.5s;
+    background-color:#ffcfcf;
+    transition: .6s;
 }
 
 .mi-nav {
@@ -30,7 +30,6 @@ body {
 
 .mi-navbar-ul {
     gap: 30px;
-
 }
 
 .inicio {
@@ -59,11 +58,7 @@ body {
 .flex-tittle {
     display: flex;
     justify-content: center;
-}
-
-div h1 {
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
 }
 
 div h3 {
@@ -73,6 +68,96 @@ div h3 {
 div h4 {
     margin: 20px
 }
+
+
+
+
+
+/* Adopcion */
+
+
+.mi-formulario {
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-image: var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon,none);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    appearance: none;
+    min-width: 400px;
+
+
+}
+
+.desplegables {
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px
+}
+
+.main-adopcion-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+main .input-adopcion {
+    width: 30%;
+    margin: 30px;
+    padding: 14px;
+    min-width: 200px;
+}
+
+div textarea {
+    width: 25%;
+    min-width: 200px;
+}
+
+.mi-boton {
+    height: 50px;
+}
+
+.carrusel-adopcion {
+    margin-top: 35px;
+}
+
+
+
+
+
+
+/* faq */
+
+
+.faq-respuesta {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -101,6 +186,7 @@ div h4 {
 
 footer {
     background-color: #ffe3e3;
+    margin-top: 150px;
 }
 
 footer div {
@@ -125,5 +211,5 @@ footer div ul li {
 .flex-copyright {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
 }
