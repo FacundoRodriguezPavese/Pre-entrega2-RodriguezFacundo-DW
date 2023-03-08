@@ -1,8 +1,10 @@
 * {
     font-family: 'Babylonica', cursive;
     font-family: 'Lora', serif;
+}
+
+a {
     text-decoration: none;
-    list-style: none;
 }
 
 body {
@@ -70,7 +72,31 @@ div h3 {
 
 /* Footer */
 
-.footer ul {
-    display: flex;
+footer {
+    background-color: #ffe3e3;
+}
 
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div iframe {
+    margin: 10px
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer div ul li {
+    margin: 8px;
+}
+
+.flex-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
