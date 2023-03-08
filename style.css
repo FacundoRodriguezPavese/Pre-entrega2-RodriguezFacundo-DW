@@ -1,0 +1,76 @@
+* {
+    font-family: 'Babylonica', cursive;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(../Modelo2/views/descarga2.png);
+}
+
+#navbarNav ul li {
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#ffe3e3;
+    font-size: 20px;
+}
+
+#navbarNav ul li:hover {
+    background-color:rgb(255, 207, 207);
+    transition: 1.5s;
+}
+
+.mi-nav {
+    background-color: rgb(255, 227, 227);
+    justify-content: flex-end;
+}
+
+.mi-navbar-ul {
+    gap: 30px;
+
+}
+
+.inicio {
+    font-size: 30px;
+    padding: 0px 50px;
+}
+
+.mi-index-main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.mi-index-main h5 {
+    font-size: 25px;
+    line-height: 43px;
+    font-weight: 500;
+}
+
+.mi-flex-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-tittle {
+    display: flex;
+    justify-content: center;
+}
+
+div h1 {
+    padding: 20px;
+    margin: 20px;
+}
+
+div h3 {
+    margin: 20px 0px;
+}
+
+/* Footer */
+
+.footer ul {
+    display: flex;
+
+}
