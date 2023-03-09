@@ -69,7 +69,12 @@ div h4 {
     margin: 20px
 }
 
-
+.images-aside {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
 
 
 
@@ -145,26 +150,55 @@ div textarea {
 
 
 
+/* nuestra mision */
+
+.nuestra-mision-main p {
+    font-size: 25px;
+    padding: 45px;
+    margin: 10px;
+}
+
+
+/* peluqueria */
+
+
+.form-peluqueria {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+
+
+.form-peluqueria h6 {
+    font-size: 20px
+}
+
+.form-peluqueria h6 input{
+    margin: 20px;
+}
+
+.solicitar-turno {
+    width: 15%;
+    min-width: 130px;
+}
+
+.boton-desplegable-pelu {
+    background-color: rgb(173, 216, 230);
+}
+.boton-desplegable-pelu:hover {
+    background-color: rgb(155, 212, 231);
+}
 
 
 
 
+/* pet shop */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mis-cards {
+    justify-content: space-evenly;
+    gap: 20px;
+}
 
 
 
