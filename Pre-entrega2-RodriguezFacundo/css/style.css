@@ -1,0 +1,390 @@
+* {
+    font-family: 'Babylonica', cursive;
+    font-family: 'Lora', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../Modelo2/views/descarga2.png);
+}
+
+.estilos-mi-nav ul li {
+    padding: 10px;
+    border-radius: 20px;
+    background-color:#ffe3e3;
+    font-size: 20px;
+}
+
+.estilos-mi-nav ul li:hover {
+    background-color:#ffcfcf;
+    transition: .6s;
+}
+
+.mi-nav {
+    background-color: rgb(255, 227, 227);
+    justify-content: flex-end;
+}
+
+.mi-navbar-ul {
+    gap: 30px;
+}
+
+.inicio {
+    font-size: 30px;
+    padding: 0px 50px;
+}
+
+.mi-index-main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.mi-index-main h5 {
+    font-size: 25px;
+    line-height: 43px;
+    font-weight: 500;
+}
+
+.mi-flex-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-tittle {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.images-aside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+
+/* Adopcion */
+
+
+.mi-formulario {
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-image: var(--bs-form-select-bg-img),var(--bs-form-select-bg-icon,none);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    appearance: none;
+    min-width: 345px;
+
+
+}
+
+.desplegables {
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px
+}
+
+.main-adopcion-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+main .input-adopcion {
+    width: 30%;
+    margin: 30px;
+    padding: 14px;
+    min-width: 200px;
+}
+
+.textarea-adopcion {
+    width: 25%;
+    min-width: 360px;
+}
+
+.mi-boton {
+    height: 50px;
+}
+
+.carrusel-adopcion {
+    margin-top: 35px;
+}
+
+
+
+
+
+
+/* faq */
+
+
+.faq-respuesta {
+    margin: 30px;
+}
+
+
+
+/* nuestra mision */
+
+
+.parrafo-responsive {
+    display: none;
+}
+
+.nuestra-mision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.parrafo, .parrafo2 {
+    line-height: 40px;
+    width: 75%;
+}
+
+.parrafo2 {
+    margin: 30px;
+}
+
+.subtitulo-nuestra_mision {
+    background-color: rgba(108, 255, 206, 0.349);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    width: 30%;
+}
+
+.nuestra-mision .parrafo {
+    background-color: rgba(252, 235, 137, 0.618);
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.nuestra-mision .parrafo2 {
+    background-color: rgba(108, 255, 206, 0.349);
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.parrafo {
+    margin: 10px auto;
+}
+
+/* peluqueria */
+
+
+.main-peluqueria {
+    text-align: center;
+}
+
+.flex-subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.main-peluqueria h3{
+    min-width: 360px;
+    border-radius: 35%;
+    background-color: #ffd68b69;
+    padding: 20px;
+}
+
+.antes {
+    border: 2px solid red;
+    margin-bottom: 40px;
+    background-color: #ffcfcf;
+    padding: 10px;
+}
+
+.despues {
+    border: 2px solid green;
+    margin-bottom: 40px;
+    background-color: rgba(157, 251, 157, 0.786);
+    padding: 10px;
+}
+
+.antes-y-despues {
+    max-width: 900px;
+}
+
+
+.cuidado-especifico textarea{
+    padding: 10px;
+    width: 25%;
+    min-width: 360px;
+}
+
+
+.form-peluqueria {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+
+.boton-pelu-enviar {
+    max-width: 500px;
+}
+
+.margin-ta-enviar {
+    margin-top: 50px;
+}
+
+.form-peluqueria h6 {
+    font-size: 20px
+}
+
+.form-peluqueria h6 input{
+    margin: 20px;
+}
+
+.solicitar-turno {
+    width: 15%;
+    min-width: 130px;
+}
+
+.boton-desplegable-pelu {
+    background-color: rgb(173, 216, 230);
+}
+.boton-desplegable-pelu:hover {
+    background-color: rgb(155, 212, 231);
+}
+
+
+
+
+/* pet shop */
+
+.mis-cards {
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: #ffe3e3;
+    margin-top: 150px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div iframe {
+    margin: 10px
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer div ul li {
+    margin: 8px;
+}
+
+.flex-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+    .parrafo-responsive {
+        display: block;
+        background-color: rgba(252, 235, 137, 0.618);
+    }
+
+    .parrafo {
+        display: none;
+    }
+
+    .nuestra-mision .parrafo-responsive, .parrafo2{
+        margin: 10px;
+        padding: 10px;
+        width: 100%;
+        line-height: 35px;
+    }
+
+    .subtitulo-nuestra_mision{
+        width: 60%;
+        padding: 30px;
+    }
+
+    .images-aside {
+        display: flex;
+        
+    }
+
+    .images-aside img{
+        padding: 15px 0px 15px 0px;
+    }
+
+    footer div {
+        display: block;
+    }
+
+    footer div ul {
+        list-style: none; padding: 0;
+    }
+
+
+    footer div iframe {
+        width: 40%;
+        height: 20%;
+    }
+
+    
+    .nuestra-mision-main p {
+        font-size: 25px;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    img {
+        width: 100%;
+    }
+}
